@@ -1,32 +1,31 @@
-# 42 Piscine Starter Kit
+# C Programming
 
-This repository supports my learning during the **Piscine** and aims to help my fellow students along the way.
+A personal workspace for learning and improving my C programming skills through 42 School and Harvard's CS50.
 
-## 🏊 Current Focus: Swim Through the Projects
+This repository brings together my exercises, personal implementations and notes as I work towards a better understanding of C and computer science.
 
-Keep moving forward at a steady pace. **The goal isn't perfection. It's progress.** Don't spend too long stuck on a single project. If an exercise feels too complicated, skip it and come back later. 
-Consistent progress means more practice, a better understanding of concepts and greater confidence.
+## 🏊 Learning by Doing
 
-## 🎓 No Cheating. Choose Learning Instead
+My focus is on writing code, solving problems and understanding how things work rather than simply memorising syntax or following tutorials.
 
-To solve a problem when I have no idea where to start I need to use references to learn, not shortcuts.
-Looking at solutions can be a valuable part of the learning process. The important thing is not to copy code blindly, but to understand what it does and why it works.
+You'll find:
+- **42 Piscine:** Exercises and projects from my Piscine journey.
+- **CS50:** Weekly problem sets and exercises.
+- **Implementations:** My own attempts at building functions, algorithms and data structures.
+- **Notes:** Concepts, explanations, mistakes and things I want to remember.
 
-My advice:
+## 🧠 My Approach
 
-1. **Try first.** Write at least the basic structure yourself.
-2. **Consult references.** Review solved exercises and look for similar patterns.
-3. **Transcribe if necessary.** Writing code yourself helps you understand its structure.
-4. **Run and experiment.** Change things, observe the results and learn from them.
-5. **Debug step by step.** Use the VS Code debugger to understand how the code executes.
-6. **Try again from memory.** Rewrite the code without looking at the solution, or use references when needed.
+I learn best by experimenting, making mistakes, debugging and explaining my code.
 
-## 🔄 Learning Cycle
+I use references when needed, but the goal is always to understand the solution rather than simply reproduce it. Peer reviews and evaluations are also an important part of how I learn.
 
-**Understand → Implement → Experiment → Build → Reflect**
-
+**Understand → Implement → Experiment → Reflect → Repeat**
 
 ## 🎯 Goal
 
-Keep swimming, keep coding and keep learning.
-**Consistency over perfection. Progress over stagnation. Learning by doing.**
+Build a solid understanding of C through consistent practice, gradually connecting concepts and becoming a more confident problem solver.
+
+This repository is a work in progress. Both learning paths are ongoing, and so is the journey.
+
+*Keep swimming, keep coding and keep learning.*
