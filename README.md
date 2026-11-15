@@ -25,10 +25,6 @@ My advice:
 
 **Understand → Implement → Experiment → Build → Reflect**
 
-## 📈 Progress
-
-I track milestones, lessons learnt and next steps in [DailyLogs.md](DailyLogs.md).
-Progress is measured by what I can understand, implement, test, explain and improve.
 
 ## 🎯 Goal
 
