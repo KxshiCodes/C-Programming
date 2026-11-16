@@ -1,11 +1,16 @@
 #include <unistd.h>
 
-// Function Prototype
-void	ft_print_comb(void);
-void	print_char(int i, int j, int k);
+void	ft_print_comb(void); // Function Prototype
+void	print_char(int i, int j, int k); // Function Prototype
 
-// Function Definition
-void	ft_print_comb(void)
+int main(void)
+{
+	ft_print_comb();
+
+	return (0);
+}
+
+void	ft_print_comb(void) // Function Definition
 {
 	int	i;
 	int	j;
@@ -29,11 +34,12 @@ void	ft_print_comb(void)
 	}
 }
 
-void	print_char(int i, int j, int k)
+void	print_char(int i, int j, int k) // Function Definition
 {
 	write(1, &i, 1);
 	write(1, &j, 1);
 	write(1, &k, 1);
+
 	if (i < '7' || j < '8' || k < '9')
 	{
 		write(1, ", ", 2);

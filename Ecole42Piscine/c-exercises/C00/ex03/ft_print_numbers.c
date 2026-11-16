@@ -1,10 +1,15 @@
 #include <unistd.h>
 
-// Function Prototype
-void	ft_print_numbers(void);
+void	ft_print_numbers(void); // Function Prototype
 
-// Function definitions
-void	ft_print_numbers(void)
+int main(void)
+{
+	ft_print_numbers();
+
+	return (0);
+}
+
+void	ft_print_numbers(void) // Function definitions
 {
 	int	num;
 
