@@ -24,7 +24,6 @@ void	rush(int x, int y) // Main function to generate the rectangle based on the 
 			check_conditions(row, column, x, y); // Call the function to check the conditions and write the appropriate character.
 			column++;
 		}
-
 		ft_putchar('\n'); // Print a newline character after each row.
 		row++;
 	}
