@@ -1,6 +1,6 @@
-void	ft_putchar(char c);
+void	ft_putchar(char c); // Function Prototype to print single Character.
 
-void	write_row(int column, int x)
+void	write_row(int column, int x) // Function to write the middle rows of the rectangle.
 {
 	if (column == 0 || column == x - 1)
 	{
@@ -12,7 +12,7 @@ void	write_row(int column, int x)
 	}
 }
 
-void	write_row_fl(int column, int x)
+void	write_row_fl(int column, int x) // Function to write the first and last rows of the rectangle.
 {
 	if (column == 0)
 	{
@@ -28,7 +28,7 @@ void	write_row_fl(int column, int x)
 	}
 }
 
-void	check_conditions(int row, int column, int x, int y)
+void	check_conditions(int row, int column, int x, int y) // Function to check the conditions for writing the rows of the rectangle.
 {
 	if (row == 0 || row == y - 1)
 		write_row_fl(column, x);
@@ -36,16 +36,17 @@ void	check_conditions(int row, int column, int x, int y)
 		write_row(column, x);
 }
 
-void	rush(int x, int y)
+void	rush(int x, int y) // Main function to generate the rectangle based on the given dimensions.
 {
 	int	row;
 	int	column;
 
-	if (x <= 0 || y <= 0)
+	if (x <= 0 || y <= 0) // Error handling for invalid input values.
 	{
 		ft_putchar('e');
 		return ;
 	}
+
 	row = 0;
 	while (row < y)
 	{
