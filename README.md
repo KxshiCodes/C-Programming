@@ -10,7 +10,7 @@ My focus is on writing code, solving problems and understanding how things work 
 
 You'll find:
 - **42 Piscine:** Exercises and projects from my Piscine journey.
-- **CS50:** Weekly problem sets and exercises.
+- **[CS50]((https://cs50.harvard.edu/x/)):** Weekly problem sets and exercises.
 - **Implementations:** My own attempts at building functions, algorithms and data structures.
 - **Notes:** Concepts, explanations, mistakes and things I want to remember.
 
