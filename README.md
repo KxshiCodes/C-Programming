@@ -1,5 +1,3 @@
-[🇬🇧 English](README.md) | [🇫🇷 Français](README.fr.md)
-
 # C Programming
 
 A personal workspace for learning and improving my C programming skills through 42 School and Harvard's CS50.
