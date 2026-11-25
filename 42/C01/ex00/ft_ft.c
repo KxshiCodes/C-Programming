@@ -12,3 +12,5 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
+
+/* C01 taught me how to use advanced loops*/
