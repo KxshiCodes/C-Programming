@@ -1,18 +1,14 @@
 # C Programming
 
-A collection of C programming exercises and small projects from 42 School and Harvard's CS50.
+A collection of C programming exercises and projects from the 42 School Piscine.
 
-## Projects & Exercises
+## Exercises & Projects
 
-### 42 School
-Exercises and projects covering C programming fundamentals, memory management, pointers, and algorithms.
-
-### Harvard CS50
-Problem sets and exercises covering programming fundamentals, algorithms, and problem-solving.
+Exercises covering C fundamentals, low-level programming, memory management, pointers, and algorithms.
 
 ## Topics
 
-- C fundamentals
+- C fundamentals and syntax
 - Pointers and memory management
 - Arrays and strings
 - Functions and data structures
