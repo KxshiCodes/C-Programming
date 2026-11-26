@@ -5,11 +5,9 @@ of that int to "42". */
 
 #include <unistd.h>
 
-// Function Prototype
-void	ft_ft(int *nbr);
+void	ft_ft(int *nbr); // Function Prototype
 
-// Main to Test Function
-int	main(void)
+int	main(void) // Main to Test Function
 {
 	int	number;
 
@@ -19,8 +17,7 @@ int	main(void)
 	return (0);
 }
 
-// Function Definition
-void	ft_ft(int *nbr)
+void	ft_ft(int *nbr) // Function Definition
 {
 	*nbr = 42;
 }

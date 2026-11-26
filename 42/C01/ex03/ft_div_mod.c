@@ -1,3 +1,7 @@
+/* This function divides ‘a’ by ‘b’ and stores the result in the integer pointed to by
+‘div’. It also stores the remainder of the division of ‘a’ by ‘b’ in the integer pointed
+to by ‘mod’. */
+
 #include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod);

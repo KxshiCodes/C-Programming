@@ -4,8 +4,9 @@ and sets the value of that int to “42” */
 
 #include <unistd.h>
 
-void	ft_ultimate_ft(int *********nbr);
-int	main(void)
+void	ft_ultimate_ft(int *********nbr); // Function Prototype
+
+int	main(void) // Main to Test Function
 {
 	int	nbr;
 	int	*ptr1;
@@ -33,7 +34,7 @@ int	main(void)
 	return (0);
 }
 
-void	ft_ultimate_ft(int *********nbr)
+void	ft_ultimate_ft(int *********nbr) // Function Definition
 {
 	*********nbr = 42;
 }
