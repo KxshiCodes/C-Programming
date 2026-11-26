@@ -4,19 +4,20 @@ to by ‘mod’. */
 
 #include <unistd.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod);
+void	ft_div_mod(int a, int b, int *div, int *mod); // Function Prototype
 
-int main(void)
+int main(void) // Main to test Function code
 {
 	int div;
 	int mod;
 
 	ft_div_mod(10, 3, &div, &mod);
+	write(1, "Test passed1\n", 13);
 
 	return (0);
 }
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_div_mod(int a, int b, int *div, int *mod) // Function Definition
 {
 	*div = a / b;
 	*mod = a % b;
