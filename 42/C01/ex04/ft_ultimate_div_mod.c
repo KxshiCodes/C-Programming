@@ -1,9 +1,9 @@
 #include <unistd.h>
 #include <stdio.h>
 
-void	ft_ultimate_div_mod(int *a, int *b);
+void	ft_ultimate_div_mod(int *a, int *b); // Function Prototype
 
-int main(void)
+int main(void) // Main to test function code
 {
 	int a = 10;
 	int b = 3;
@@ -14,7 +14,7 @@ int main(void)
 	return (0);
 }
 
-void	ft_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b) // Function Definition
 {
 	int div;
 	int mod;

@@ -1,8 +1,8 @@
 #include <unistd.h>
 
-int ft_strlen(char *str);
+int ft_strlen(char *str); // Function Prototype
 
-int main(void)
+int main(void) // Main to test Function
 {
 	char *str = "Hello, World!\n";
 	int length;
@@ -13,7 +13,7 @@ int main(void)
 	return (0);
 }
 
-int	ft_strlen(char *str)
+int	ft_strlen(char *str) // Function Definition
 {
 	int i;
 

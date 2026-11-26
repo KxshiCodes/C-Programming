@@ -1,15 +1,15 @@
 #include <unistd.h>
 
-void	ft_putstr(char *str);
+void	ft_putstr(char *str); // Function Prototype
 
 int main(void)
 {
-	ft_putstr("Hello, World!\n");
+	ft_putstr("Hello, World!\n"); // Main to test function code
 
 	return (0);
 }
 
-void	ft_putstr(char *str)
+void	ft_putstr(char *str) // Function Definition
 {
 	int i;
 

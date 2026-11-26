@@ -6,7 +6,7 @@ to by ‘mod’. */
 
 void	ft_div_mod(int a, int b, int *div, int *mod); // Function Prototype
 
-int main(void) // Main to test Function code
+int main(void) // Main to test function code
 {
 	int div;
 	int mod;

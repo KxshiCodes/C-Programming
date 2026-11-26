@@ -6,7 +6,7 @@ and sets the value of that int to “42” */
 
 void	ft_ultimate_ft(int *********nbr); // Function Prototype
 
-int	main(void) // Main to Test Function
+int	main(void) // Main to test function code
 {
 	int	nbr;
 	int	*ptr1;
