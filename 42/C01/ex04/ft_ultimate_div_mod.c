@@ -1,3 +1,7 @@
+/* This function divides the value pointed to by ‘a’ by the value pointed to by ‘b’. The
+result of the division is stored in the integer pointed to by ‘a’, while the remainder
+is stored in the integer pointed to by ‘b’. */
+
 #include <unistd.h>
 #include <stdio.h>
 

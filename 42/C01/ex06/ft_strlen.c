@@ -1,3 +1,5 @@
+/* Create a function that counts and returns the number of characters in a string. */
+
 #include <unistd.h>
 
 int ft_strlen(char *str); // Function Prototype

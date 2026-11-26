@@ -1,3 +1,10 @@
+/* 
+- Create a function that reverses a given array of integers (the first element becomes
+the last, and so on).
+- The function takes two arguments: a pointer to an int and the number of elements
+in the array. 
+*/
+
 #include <unistd.h>
 
 void ft_rev_int_tab(int *tab, int size);
