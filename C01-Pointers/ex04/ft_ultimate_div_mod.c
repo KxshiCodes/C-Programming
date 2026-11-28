@@ -1,31 +1,40 @@
-/* This function divides the value pointed to by ‘a’ by the value pointed to by ‘b’. The
-result of the division is stored in the integer pointed to by ‘a’, while the remainder
-is stored in the integer pointed to by ‘b’. */
+/* Create a function that divides the value pointed to by 'a' by the
+value pointed to by 'b'. Store the division result in 'a' and the remainder in 'b'.*/
 
-#include <unistd.h>
 #include <stdio.h>
 
-void	ft_ultimate_div_mod(int *a, int *b); // Function Prototype
+// Function prototype.
+void	ft_ultimate_div_mod(int *a, int *b);
 
-int main(void) // Main to test function code
+int	main(void)
 {
-	int a = 10;
-	int b = 3;
+	int	a;
+	int	b;
 
+	// Initialise the two integers.
+	a = 10;
+	b = 3;
+
+	// Pass the addresses of both integers.
 	ft_ultimate_div_mod(&a, &b);
-	printf("%d, %d", a, b);
 
-	return (0);
+	// Display the updated values.
+	printf("%d, %d\n", a, b);
+
+	return (0); // End program successfully.
 }
 
-void	ft_ultimate_div_mod(int *a, int *b) // Function Definition
+// Function definition.
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-	int div;
-	int mod;
+	int	div;
+	int	mod;
 
+	// Calculate the division result and remainder.
 	div = *a / *b;
 	mod = *a % *b;
 
+	// Store the results in the original integers.
 	*a = div;
 	*b = mod;
 }

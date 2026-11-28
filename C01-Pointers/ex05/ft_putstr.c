@@ -1,23 +1,30 @@
-/* Create a function that displays a string of characters on the standard output */
+// Create a function that displays a string of characters on the standard output.
 
 #include <unistd.h>
 
-void	ft_putstr(char *str); // Function Prototype
+// Function prototype.
+void	ft_putstr(char *str);
 
-int main(void)
+int	main(void)
 {
-	ft_putstr("Hello, World!\n"); // Main to test function code
+	// Call the function with a test string.
+	ft_putstr("Hello, World!\n");
 
-	return (0);
+	return (0); // End program successfully.
 }
 
-void	ft_putstr(char *str) // Function Definition
+// Function definition.
+void	ft_putstr(char *str)
 {
-	int i;
+	int	i;
 
+	// Start at the first character.
 	i = 0;
+
+	// Loop until the null terminator is reached.
 	while (str[i])
 	{
+		// Display the current character.
 		write(1, &str[i], 1);
 		i++;
 	}
