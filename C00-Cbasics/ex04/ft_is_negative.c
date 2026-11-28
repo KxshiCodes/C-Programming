@@ -1,22 +1,28 @@
 #include <unistd.h>
 
-void	ft_is_negative(int n); // Function Prototype
+// Function prototype: declares the function.
+void	ft_is_negative(int n);
 
-int main(void)
+int	main(void)
 {
-	ft_is_negative('1');
+	// Call the function and pass the integer 1.
+	ft_is_negative(1);
 
-	return (0);
+	return (0); // End program successfully.
 }
 
-void	ft_is_negative(int n) // Function Definition
+// Function definition.
+void	ft_is_negative(int n)
 {
-	if (n >= 0) // Code Logic
+	// Check if n is greater than or equal to zero.
+	if (n >= 0)
 	{
+		// If true, print P (Positive).
 		write(1, "P", 1);
 	}
 	else
 	{
+		// If false, print N (Negative).
 		write(1, "N", 1);
 	}
 }
