@@ -1,4 +1,4 @@
-/*Create a function that takes a pointer to an int as a parameter
+/* Create a function that takes a pointer to an int as a parameter
 and sets the value of that int to 42.*/
 
 #include <unistd.h>

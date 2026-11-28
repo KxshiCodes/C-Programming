@@ -1,4 +1,4 @@
-// Exercise: Create a function that prints the character passed to it.
+// Create a function that prints the character passed to it.
 // Use write() to display exactly one character.
 
 #include <unistd.h>

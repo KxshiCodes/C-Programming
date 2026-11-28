@@ -1,4 +1,4 @@
-// Exercise: Create a function that prints the lowercase alphabet from 'a' to 'z' in ascending order on one line.
+// Create a function that prints the lowercase alphabet from 'a' to 'z' in ascending order on one line.
 
 #include <unistd.h>
 
