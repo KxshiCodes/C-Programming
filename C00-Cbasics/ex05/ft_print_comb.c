@@ -1,3 +1,7 @@
+// Create a function that prints all unique combinations of three
+// different digits in ascending order, separated by a comma and space.
+// Do not print a comma after the last combination.
+
 #include <unistd.h>
 
 // Function prototypes.

@@ -1,6 +1,8 @@
+// Create a function that prints 'N' if an integer is negative, or 'P' if it is positive or zero.
+
 #include <unistd.h>
 
-// Function prototype: declares the function.
+// Function prototype.
 void	ft_is_negative(int n);
 
 int	main(void)
@@ -17,12 +19,12 @@ void	ft_is_negative(int n)
 	// Check if n is greater than or equal to zero.
 	if (n >= 0)
 	{
-		// If true, print P (Positive).
+		// If true, print P.
 		write(1, "P", 1);
 	}
 	else
 	{
-		// If false, print N (Negative).
+		// If false, print N.
 		write(1, "N", 1);
 	}
 }
