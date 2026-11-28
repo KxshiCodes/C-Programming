@@ -3,29 +3,43 @@ as parameters. */
 
 #include <unistd.h>
 
-void	ft_swap(int *a, int *b); // Function Prototype
+// Function prototype.
+void	ft_swap(int *a, int *b);
 
-int main(void) // Main to test function code
+int	main(void)
 {
-	int a = 3;
-	int b = 5;
+	int	a;
+	int	b;
 
+	// Initialise the two integers.
+	a = 3;
+	b = 5;
+
+	// Pass the addresses of both integers.
 	ft_swap(&a, &b);
 
+	// Convert the integers to characters for display.
 	a += '0';
 	b += '0';
 
+	// Display the swapped values.
 	write(1, &a, 1);
 	write(1, &b, 1);
 
-	return (0);
+	return (0); // End program successfully.
 }
 
-void	ft_swap(int *a, int *b) // Function Definition
+// Function definition.
+void	ft_swap(int *a, int *b)
 {
-	int temp;
+	int	temp;
 
+	// Store the value of a temporarily.
 	temp = *a;
+
+	// Copy the value of b into a.
 	*a = *b;
+
+	// Copy the original value of a into b.
 	*b = temp;
 }

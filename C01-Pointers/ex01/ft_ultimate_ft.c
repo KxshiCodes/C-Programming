@@ -4,9 +4,10 @@ and sets the value of that int to “42” */
 
 #include <unistd.h>
 
-void	ft_ultimate_ft(int *********nbr); // Function Prototype
+// Function prototype.
+void	ft_ultimate_ft(int *********nbr);
 
-int	main(void) // Main to test function code
+int	main(void)
 {
 	int	nbr;
 	int	*ptr1;
@@ -18,6 +19,7 @@ int	main(void) // Main to test function code
 	int	*******ptr7;
 	int	********ptr8;
 
+	// Initialise the variable and link the pointers.
 	nbr = 35;
 	ptr1 = &nbr;
 	ptr2 = &ptr1;
@@ -28,13 +30,18 @@ int	main(void) // Main to test function code
 	ptr7 = &ptr6;
 	ptr8 = &ptr7;
 
+	// Pass the address of the eighth pointer.
 	ft_ultimate_ft(&ptr8);
+
+	// Display the updated value.
 	write(1, &nbr, 1);
 
-	return (0);
+	return (0); // End program successfully.
 }
 
-void	ft_ultimate_ft(int *********nbr) // Function Definition
+// Function definition.
+void	ft_ultimate_ft(int *********nbr)
 {
+	// Dereference nine times to modify the original integer.
 	*********nbr = 42;
 }
