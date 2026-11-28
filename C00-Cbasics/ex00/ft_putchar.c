@@ -1,19 +1,22 @@
-#include <unistd.h> // Gives us access to the write() function.
+// Exercise: Create a function that prints the character passed to it.
+// Use write() to display exactly one character.
 
-// Function prototype: tells C that ft_putchar exists.
+#include <unistd.h>
+
+// Function prototype.
 void	ft_putchar(char c);
 
 int	main(void)
 {
-	// Call ft_putchar and pass the character 'a' to it.
+	// Call ft_putchar and pass the character 'a'.
 	ft_putchar('a');
 
-	return (0); // End the program successfully.
+	return (0);
 }
 
-// Function definition: explains what ft_putchar actually does.
+// Function definition.
 void	ft_putchar(char c)
 {
-	// Display one character on the screen.
+	// Display the character passed to the function.
 	write(1, &c, 1);
 }
